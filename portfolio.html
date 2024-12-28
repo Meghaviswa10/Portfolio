@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="profile">
+        <div class="profile-container">
+            <div class="profile-text">
+                <h1>Hello, I'm <span class="highlight"><br>V Meghashree</span></h1>
+                <p>Aspiring Full-Stack Developer | Lifelong Learner</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+            <img src="profilepic.jpeg" alt="Profile Photo" class="profile-photo">
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+           
+                I'm a dedicated developer with a passion for building dynamic, user-friendly websites and applications. 
+                My goal is to create impactful digital experiences that solve real-world problems.
+            </p>
+            <div class="social-card">
+                <a href="https://github.com/yourgithub" target="_blank" class="social-btn github">GitHub</a>
+                <a href="https://linkedin.com/in/yourlinkedin" target="_blank" class="social-btn linkedin">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Front-End</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="skill-card">
+                <h3>Back-End</h3>
+                <p>Node.js, Express, MongoDB</p>
+            </div>
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <p>Git, GitHub, VS Code</p>
+            </div>
+            <div class="skill-card">
+                <h3>Others</h3>
+                <p>SQL, REST APIs, Agile</p>
+            </div>
+        </div>
+    </section>
+    
+   
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="Screenshot (19).png" alt="Project 1" class="project-image">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio showcasing my skills and projects, built with HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/yourgithub/portfolio" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="project2.png" alt="Project 2" class="project-image">
+                <h3>E-commerce App</h3>
+                <p>An online store built with React and Node.js, featuring secure authentication and dynamic product listings.</p>
+                <a href="https://github.com/yourgithub/ecommerce" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <p>I'd love to hear from you! Whether it's a project inquiry or just a friendly hello, feel free to reach out.</p>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 V Meghashree. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
